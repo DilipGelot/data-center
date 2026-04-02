@@ -4,7 +4,7 @@ import InteractiveModel from "./InteractiveModel";
 
 export default function UtilityPower() {
   return (
-    <div className="absolute top-[15%] left-[30%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
+    <div className="absolute top-[15%] left-[22%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
       <InteractiveModel id="UtilityPower">
         <ModelLabel label="Utility Power" />
         <Image

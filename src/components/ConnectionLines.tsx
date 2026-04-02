@@ -27,9 +27,9 @@ export default function ConnectionLines() {
       */}
       <g>
         <line
-          x1="30%"
+          x1="22%"
           y1="22%"
-          x2="20%"
+          x2="12%"
           y2="32%"
           stroke="#c084fc"
           strokeWidth="6"
@@ -37,9 +37,9 @@ export default function ConnectionLines() {
           className="opacity-30"
         />
         <line
-          x1="30%"
+          x1="22%"
           y1="22%"
-          x2="20%"
+          x2="12%"
           y2="32%"
           stroke="#9333ea"
           strokeWidth="4"
@@ -149,7 +149,7 @@ export default function ConnectionLines() {
           Shifted x by +120
         */}
         <path
-          d="M 200 260 L 140 340 L 180 410"
+          d="M 104 260 L 80 340 L 180 410"
           stroke="#fde047"
           strokeWidth="6"
           strokeLinecap="round"
@@ -158,7 +158,7 @@ export default function ConnectionLines() {
           className="opacity-30"
         />
         <path
-          d="M 200 260 L 140 340 L 180 410"
+          d="M 104 260 L 80 340 L 180 410"
           stroke="#eab308"
           strokeWidth="4"
           strokeLinecap="round"
