@@ -1,10 +1,11 @@
 import Image from "next/image";
 import ModelLabel from "./ModelLabel";
+import InteractiveModel from "./InteractiveModel";
 
 export default function GasTurbine() {
   return (
     <div className="absolute top-[34%] left-[36%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
-      <div className="relative">
+      <InteractiveModel id="GasTurbine">
         <ModelLabel label="Gas Turbine" />
         <Image
           src="/assets/Gas-turbine.webp"
@@ -14,7 +15,7 @@ export default function GasTurbine() {
           className="relative w-[110px] h-auto object-contain drop-shadow-2xl"
           priority
         />
-      </div>
+      </InteractiveModel>
     </div>
   );
 }

@@ -1,10 +1,11 @@
 import Image from "next/image";
 import ModelLabel from "./ModelLabel";
+import InteractiveModel from "./InteractiveModel";
 
 export default function MvSwitchgear() {
   return (
     <div className="absolute top-[55%] left-[15%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
-      <div className="relative">
+      <InteractiveModel id="MvSwitchgear">
         <ModelLabel label="MV Switch Gear" />
         <Image
           src="/assets/mv-switchgear.webp"
@@ -14,7 +15,7 @@ export default function MvSwitchgear() {
           className="relative w-[100px] h-auto object-contain drop-shadow-2xl"
           priority
         />
-      </div>
+      </InteractiveModel>
     </div>
   );
 }
