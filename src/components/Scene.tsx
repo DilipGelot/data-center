@@ -21,6 +21,7 @@ import IsometricZone from "./IsometricZone";
 import ConnectionLines from "./ConnectionLines";
 import { SelectionProvider, useSelection } from "./SelectionContext";
 import Sidebar from "./Sidebar";
+import Trees from "./Trees";
 
 function SceneLayout() {
   const { selectedId } = useSelection();
@@ -44,6 +45,9 @@ function SceneLayout() {
             transformOrigin: "center",
           }}
         />
+
+        {/* Trees around the perimeter */}
+        <Trees />
 
         {/* 3D Transparent Wall Box */}
         <IsometricZone />

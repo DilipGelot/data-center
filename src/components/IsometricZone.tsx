@@ -36,13 +36,7 @@ export default function IsometricZone() {
           strokeWidth="1"
         />
 
-        {/* Front Left Wall */}
-        <polygon
-          points="60,380 360,530 360,480 60,330"
-          fill="rgba(180, 190, 200, 0.45)"
-          stroke="rgba(107, 114, 128, 0.6)"
-          strokeWidth="2"
-        />
+        {/* Front Left Wall — removed (bottom side) */}
 
         {/* Middle Wall — Shared boundary between Zone 2 and Zone 1 */}
         <polygon
@@ -52,8 +46,8 @@ export default function IsometricZone() {
           strokeWidth="2"
         />
 
-        {/* Top edge boundary */}
-        <polygon
+        {/* Top edge boundary — only back + right + middle edges, skip front-left */}
+        <polyline
           points="60,330 560,80 860,230 360,480"
           fill="none"
           stroke="rgba(107, 114, 128, 0.8)"
@@ -83,15 +77,9 @@ export default function IsometricZone() {
           strokeWidth="1"
         />
 
-        {/* Front Left Wall */}
-        <polygon
-          points="360,530 660,680 660,630 360,480"
-          fill="rgba(180, 190, 200, 0.45)"
-          stroke="rgba(107, 114, 128, 0.6)"
-          strokeWidth="2"
-        />
+        {/* Front Left Wall — removed (bottom side) */}
 
-        {/* Front Right Wall */}
+        {/* Front Right Wall — restored */}
         <polygon
           points="660,680 1160,430 1160,380 660,630"
           fill="rgba(180, 190, 200, 0.40)"
@@ -99,8 +87,8 @@ export default function IsometricZone() {
           strokeWidth="2"
         />
 
-        {/* Top edge boundary */}
-        <polygon
+        {/* Top edge boundary — skip front-left bottom edge */}
+        <polyline
           points="360,480 860,230 1160,380 660,630"
           fill="none"
           stroke="rgba(107, 114, 128, 0.8)"
