@@ -7,9 +7,9 @@ interface ModelLabelProps {
 export default function ModelLabel({ label }: ModelLabelProps) {
   return (
     <div className="absolute top-[15%] left-1/2 -translate-x-1/2 -translate-y-full flex flex-col items-center pointer-events-none z-10 w-max">
-      {/* Label Text - No white background as requested, but a slight text shadow for readability */}
+      {/* Label Text — bold with outline shadow for readability at all scales */}
       <span
-        className="text-black font-extrabold text-l leading-none tracking-wide"
+        className="model-label-text text-black font-extrabold leading-none tracking-wide"
         style={{
           textShadow:
             "1px 1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #fff, 0 2px 4px rgba(0,0,0,0.3)",
