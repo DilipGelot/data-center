@@ -23,16 +23,16 @@ export default function IsometricZone() {
         {/* Back Left Wall */}
         <polygon
           points="60,380 560,130 560,80 60,330"
-          fill="rgba(180, 190, 200, 0.35)"
-          stroke="rgba(156, 163, 175, 0.4)"
+          fill="rgba(150, 162, 175, 0.55)"
+          stroke="rgba(120, 130, 145, 0.6)"
           strokeWidth="1"
         />
 
         {/* Back Right Wall */}
         <polygon
           points="560,130 860,280 860,230 560,80"
-          fill="rgba(180, 190, 200, 0.35)"
-          stroke="rgba(156, 163, 175, 0.4)"
+          fill="rgba(150, 162, 175, 0.55)"
+          stroke="rgba(120, 130, 145, 0.6)"
           strokeWidth="1"
         />
 
@@ -41,8 +41,8 @@ export default function IsometricZone() {
         {/* Middle Wall — Shared boundary between Zone 2 and Zone 1 */}
         <polygon
           points="360,530 860,280 860,230 360,480"
-          fill="rgba(180, 190, 200, 0.40)"
-          stroke="rgba(107, 114, 128, 0.6)"
+          fill="rgba(150, 162, 175, 0.60)"
+          stroke="rgba(90, 100, 115, 0.75)"
           strokeWidth="2"
         />
 
@@ -50,7 +50,7 @@ export default function IsometricZone() {
         <polyline
           points="60,330 560,80 860,230 360,480"
           fill="none"
-          stroke="rgba(107, 114, 128, 0.8)"
+          stroke="rgba(80, 90, 105, 0.9)"
           strokeWidth="2"
         />
       </g>
@@ -72,8 +72,8 @@ export default function IsometricZone() {
         {/* Back Right Wall */}
         <polygon
           points="860,280 1160,430 1160,380 860,230"
-          fill="rgba(180, 190, 200, 0.35)"
-          stroke="rgba(156, 163, 175, 0.4)"
+          fill="rgba(150, 162, 175, 0.55)"
+          stroke="rgba(120, 130, 145, 0.6)"
           strokeWidth="1"
         />
 
@@ -82,8 +82,8 @@ export default function IsometricZone() {
         {/* Front Right Wall — restored */}
         <polygon
           points="660,680 1160,430 1160,380 660,630"
-          fill="rgba(180, 190, 200, 0.40)"
-          stroke="rgba(107, 114, 128, 0.6)"
+          fill="rgba(150, 162, 175, 0.60)"
+          stroke="rgba(90, 100, 115, 0.75)"
           strokeWidth="2"
         />
 
@@ -91,7 +91,7 @@ export default function IsometricZone() {
         <polyline
           points="360,480 860,230 1160,380 660,630"
           fill="none"
-          stroke="rgba(107, 114, 128, 0.8)"
+          stroke="rgba(80, 90, 105, 0.9)"
           strokeWidth="2"
         />
       </g>

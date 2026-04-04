@@ -132,3 +132,26 @@ body {
     font-size: 1.3rem; /* even larger for small screens */
   }
 }
+
+/* ═══════════════════════════════════════════════════════
+   ISOMETRIC GRID TILE BACKGROUND
+   Diamond/rhombus grid matching the scene's isometric view
+   ═══════════════════════════════════════════════════════ */
+.grid-tile-bg {
+  background-color: #c6ced7;
+  background-image:
+    repeating-linear-gradient(
+      30deg,
+      rgba(0, 0, 0, 0.04) 0px,
+      rgba(0, 0, 0, 0.04) 1px,
+      transparent 1px,
+      transparent 60px
+    ),
+    repeating-linear-gradient(
+      150deg,
+      rgba(0, 0, 0, 0.04) 0px,
+      rgba(0, 0, 0, 0.04) 1px,
+      transparent 1px,
+      transparent 60px
+    );
+}

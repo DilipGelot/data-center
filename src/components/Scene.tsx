@@ -75,17 +75,7 @@ function SceneLayout() {
           transformOrigin: "center center",
         }}
       >
-        {/* Subtle Grid Background */}
-        <div
-          className="absolute inset-0 bg-[#f8fafc] opacity-50 pointer-events-none"
-          style={{
-            backgroundImage:
-              "linear-gradient(#e2e8f0 1px, transparent 1px), linear-gradient(90deg, #e2e8f0 1px, transparent 1px)",
-            backgroundSize: "100px 100px",
-            transform: "rotateX(60deg) rotateZ(-45deg)",
-            transformOrigin: "center",
-          }}
-        />
+
 
         {/* Trees around the perimeter */}
         <Trees />

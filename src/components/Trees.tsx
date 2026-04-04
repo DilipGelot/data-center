@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const treePositions = [
   { top: "3%", left: "50%", size: 45 },
   { top: "10%", left: "80%", size: 40 },
@@ -19,14 +17,13 @@ export default function Trees() {
             top: tree.top,
             left: tree.left,
             transform: "translate(-50%, -50%)",
+            mixBlendMode: "multiply",
           }}
         >
-          <Image
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
             src="/assets/tree.png"
             alt=""
-            width={100}
-            height={100}
-            className="object-contain"
             style={{ width: `${tree.size}px`, height: "auto" }}
           />
         </div>
