@@ -4,7 +4,7 @@ import InteractiveModel from "./InteractiveModel";
 
 export default function TemperatureControl() {
   return (
-    <div className="absolute top-[72%] left-[55%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto z-2">
+    <div className="absolute top-[70%] left-[75%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto z-2">
       <InteractiveModel id="TemperatureControl">
         <ModelLabel label="Temperature Control" />
         <Image

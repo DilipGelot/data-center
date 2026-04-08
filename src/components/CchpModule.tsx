@@ -4,7 +4,7 @@ import InteractiveModel from "./InteractiveModel";
 
 export default function CchpModule() {
   return (
-    <div className="absolute top-[80%] left-[20%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
+    <div className="absolute top-[70%] left-[18%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
       <InteractiveModel id="CchpModule">
         <ModelLabel label="CCHP" />
         <Image

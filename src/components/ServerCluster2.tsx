@@ -1,12 +1,10 @@
 import Image from "next/image";
-import ModelLabel from "./ModelLabel";
 import InteractiveModel from "./InteractiveModel";
 
-export default function ServerCluster() {
+export default function ServerCluster2() {
   return (
-    <div className="absolute top-[47%] left-[73%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
-      <InteractiveModel id="ServerCluster">
-        <ModelLabel label="Rack and Servers" />
+    <div className="absolute top-[59%] left-[56%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
+      <InteractiveModel id="ServerCluster2">
         <Image
           src="/assets/server.webp"
           alt="Rack and Servers"

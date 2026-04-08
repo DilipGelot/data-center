@@ -4,7 +4,7 @@ import InteractiveModel from "./InteractiveModel";
 
 export default function GasTurbine() {
   return (
-    <div className="absolute top-[34%] left-[36%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
+    <div className="absolute top-[33%] left-[34%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
       <InteractiveModel id="GasTurbine">
         <ModelLabel label="Gas Turbine" />
         <Image

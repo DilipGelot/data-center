@@ -4,7 +4,7 @@ import InteractiveModel from "./InteractiveModel";
 
 export default function DryCooler() {
   return (
-    <div className="absolute top-[63%] left-[42%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
+    <div className="absolute top-[87%] left-[67%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
       <InteractiveModel id="DryCooler">
         <ModelLabel label="Dry Cooler" />
         <Image

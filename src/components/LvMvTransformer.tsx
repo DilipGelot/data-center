@@ -4,7 +4,7 @@ import InteractiveModel from "./InteractiveModel";
 
 export default function LvMvTransformer() {
   return (
-    <div className="absolute top-[87%] left-[30%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
+    <div className="absolute top-[77%] left-[28%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto z-2">
       <InteractiveModel id="LvMvTransformer">
         <ModelLabel label="LV MV Transformer" />
         <Image

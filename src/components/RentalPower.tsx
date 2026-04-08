@@ -6,7 +6,7 @@ export default function RentalPower() {
   return (
     <div className="absolute top-[70%] left-[5%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
       <InteractiveModel id="RentalPower">
-        <ModelLabel label="Rental Power" />
+        <ModelLabel label="Trailer mv load bank" />
         <Image
           src="/assets/rental-power.webp"
           alt="Rental Power"

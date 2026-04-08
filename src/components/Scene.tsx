@@ -6,18 +6,22 @@ import HvMvTransformer from "./HvMvTransformer";
 import DieselGenerator from "./DieselGenerator";
 import GasGenerator from "./GasGenerator";
 import GasTurbine from "./GasTurbine";
+import GasTurbine2 from "./GasTurbine2";
 import BatteryStorage from "./BatteryStorage";
 import MvSwitchgear from "./MvSwitchgear";
+import MvSwitchgear2 from "./MvSwitchgear2";
 import RentalPower from "./RentalPower";
 import MobilePower from "./MobilePower";
 import CchpModule from "./CchpModule";
 import DistributionSwitchgear from "./DistributionSwitchgear";
+import DistributionSwitchgear2 from "./DistributionSwitchgear2";
 import LvMvTransformer from "./LvMvTransformer";
 import LoadBank from "./LoadBank";
 import DryCooler from "./DryCooler";
 import TemperatureControl from "./TemperatureControl";
 import CompressedAir from "./CompressedAir";
 import ServerCluster from "./ServerCluster";
+import ServerCluster2 from "./ServerCluster2";
 import IsometricZone from "./IsometricZone";
 import ConnectionLines from "./ConnectionLines";
 import { SelectionProvider, useSelection } from "./SelectionContext";
@@ -92,18 +96,22 @@ function SceneLayout() {
         <DieselGenerator />
         <GasGenerator />
         <GasTurbine />
+        <GasTurbine2 />
         <BatteryStorage />
         <MvSwitchgear />
+        <MvSwitchgear2 />
         <MobilePower />
         <RentalPower />
         <CchpModule />
         <DistributionSwitchgear />
+        <DistributionSwitchgear2 />
         <LvMvTransformer />
         <LoadBank />
         <DryCooler />
         <TemperatureControl />
         <CompressedAir />
         <ServerCluster />
+        <ServerCluster2 />
       </div>
 
       {/* Slide-in Details Panel */}
