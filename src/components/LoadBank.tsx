@@ -6,7 +6,7 @@ export default function LoadBank() {
   return (
     <div className="absolute top-[94%] left-[37%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto z-2">
       <InteractiveModel id="LoadBank">
-        <ModelLabel label="Load Bank" />
+        <ModelLabel label="Stationary Load Bank" />
         <Image
           src="/assets/load-bank.webp"
           alt="Load Bank"

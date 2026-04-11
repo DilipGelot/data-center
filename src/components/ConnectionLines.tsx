@@ -136,6 +136,22 @@ export default function ConnectionLines() {
         <path d="M 336 626 L 264 662 L 444 752" stroke="#eab308" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
 
         {/*
+          Yellow Lines: Load Bank Trunk → 4x Diesel Generators
+          Dashed yellow lines branching off the yellow trunk going bottom-left towards generators.
+        */}
+        {[
+          "M 290 675 L 220 710",      
+          "M 330 695 L 260 730",      
+          "M 370 715 L 300 750",    
+          "M 410 735 L 340 770",    
+        ].map((d, i) => (
+          <g key={`diesel-branch-${i}`}>
+            <path d={d} stroke="#fde047" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
+            <path d={d} stroke="#eab308" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
+          </g>
+        ))}
+
+        {/*
           Red Lines: LV MV Transformer → Distribution Switchgear
           Straight isometric line going top-right from the transformer
         */}

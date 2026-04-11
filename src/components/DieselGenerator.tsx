@@ -4,7 +4,7 @@ import InteractiveModel from "./InteractiveModel";
 
 export default function DieselGenerator() {
   return (
-    <div className="absolute top-[90%] left-[23%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto z-3">
+    <div className="absolute top-[93%] left-[22%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto z-3">
       <InteractiveModel id="DieselGenerator">
         <ModelLabel label="Diesel Generator" />
         <Image
