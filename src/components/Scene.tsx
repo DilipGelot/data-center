@@ -22,10 +22,13 @@ import TemperatureControl from "./TemperatureControl";
 import CompressedAir from "./CompressedAir";
 import ServerCluster from "./ServerCluster";
 import ServerCluster2 from "./ServerCluster2";
+import Onsite from "./Onsite";
+import Ups from "./Ups";
 import IsometricZone from "./IsometricZone";
 import ConnectionLines from "./ConnectionLines";
 import { SelectionProvider, useSelection } from "./SelectionContext";
 import Sidebar from "./Sidebar";
+import Legend from "./Legend";
 import Trees from "./Trees";
 
 // The canonical design size (desktop)
@@ -72,9 +75,9 @@ function SceneLayout() {
           width: `${CANVAS_W}px`,
           height: `${CANVAS_H}px`,
           transform: `scale(${
-            selectedId ? scale * 0.72 : scale
+            selectedId ? (isTablet ? scale * 0.6 : scale * 0.72) : scale
           }) translateX(${
-            selectedId ? (isTablet ? "30px" : "0px") : "50px"
+            selectedId ? (isTablet ? "-458px" : "-100px") : "50px"
           })`,
           transformOrigin: "center center",
         }}
@@ -112,7 +115,12 @@ function SceneLayout() {
         <CompressedAir />
         <ServerCluster />
         <ServerCluster2 />
+        <Onsite />
+        <Ups />
       </div>
+
+      {/* Top Legend */}
+      <Legend />
 
       {/* Slide-in Details Panel */}
       <Sidebar />

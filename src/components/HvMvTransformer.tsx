@@ -4,7 +4,7 @@ import InteractiveModel from "./InteractiveModel";
 
 export default function HvMvTransformer() {
   return (
-    <div className="absolute top-[28%] left-[12%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
+    <div className="absolute top-[27%] left-[11%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
       <InteractiveModel id="HvMvTransformer">
         <ModelLabel label="HV-MV Transformer" />
         <Image

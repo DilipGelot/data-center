@@ -1,0 +1,301 @@
+{
+  "UtilityPower": {
+    "title": "Utility Power",
+    "subtitle": "Transformer Testing & Load Management",
+    "paragraph": "A <b>35 kW load bank</b> is used for <b>transformer testing</b> and managing <b>utility power fluctuations</b>. It applies controlled load to validate voltage regulation, thermal performance, and capacity. In dynamic conditions, it absorbs excess or varying power, stabilizing voltage and preventing equipment stress. Compact and portable, it ensures safe, reliable performance testing and power system stability.",
+    "list": [
+      "<b>Load Bank</b>: MR20V-13.8K-CR-SB",
+      "<b>Load Bank Type</b>: AC Resistive",
+      "<b>Load Rating</b>: ",
+      "<b>Rating</b>: Up to 20MW ",
+      "<b>Voltage</b>: 35 kV",
+      "<b>Load Resolution</b>: 1.3MW ",
+      "<b>Control Power</b>: 480 VAC, 350 KVA",
+      "<b>Internal Or External Connection</b>: ",
+      "<b>Install Type</b>: Stationary / Permanent, Trailer Mounted, Outdoor Use",
+      "<b>Duty Cycle</b>: Continuous Duty",
+      "<b>Cooling System</b>: Air Cooled, Vertical Airflow"
+    ],
+    "image": "/assets/ulb.png"
+  },
+  "GasTurbine": {
+    "title": "Gas Turbine",
+    "subtitle": "Prime Power Generation",
+    "paragraph": "A <b>20 MW, 13.8 kV load bank </b> supports <b> gas turbine testing and operation </b> by applying controlled medium-voltage load to validate performance, stability, and response during commissioning or maintenance. It helps maintain minimum load for efficient turbine operation. In dynamic conditions, it absorbs excess or fluctuating power, stabilizing output and protecting equipment for reliable, continuous performance.",
+    "list": [
+      "<b>Load Bank</b>: MR20V-13.8K-CR-SB",
+      "<b>Load Bank Type</b>: AC Resistive",
+      "<b>Load Rating</b>: ",
+      "<b>Rating</b>: Up to 20mw ",
+      "<b>Voltage</b>: 13.8 kV ",
+      "<b>Load Resolution</b>: 1.3mW ",
+      "<b>Control Power</b>: 480 VAC, 350 KVA",
+      "<b>Internal Or External Connection</b>: ",
+      "<b>Install Type</b>: Stationary / Permanent, Trailer Mounted, Outdoor Use",
+      "<b>Duty Cycle</b>: Continuous Duty",
+      "<b>Cooling System</b>: Air Cooled, Vertical Airflow"
+    ],
+    "image": "/assets/ulb.png"
+  },
+  "GasTurbine2": {
+    "title": "Gas Turbine",
+    "subtitle": "Prime Power Generation",
+    "paragraph": "A <b>20 MW, 13.8 kV load bank </b> supports <b> gas turbine testing and operation </b> by applying controlled medium-voltage load to validate performance, stability, and response during commissioning or maintenance. It helps maintain minimum load for efficient turbine operation. In dynamic conditions, it absorbs excess or fluctuating power, stabilizing output and protecting equipment for reliable, continuous performance.",
+    "list": [
+      "<b>Load Bank</b>: MR20V-13.8K-CR-SB",
+      "<b>Load Bank Type</b>: AC Resistive",
+      "<b>Load Rating</b>: ",
+      "<b>Rating</b>: Up to 20mw ",
+      "<b>Voltage</b>: 13.8 kV ",
+      "<b>Load Resolution</b>: 1.3mW ",
+      "<b>Control Power</b>: 480 VAC, 350 KVA",
+      "<b>Internal Or External Connection</b>: ",
+      "<b>Install Type</b>: Stationary / Permanent, Trailer Mounted, Outdoor Use",
+      "<b>Duty Cycle</b>: Continuous Duty",
+      "<b>Cooling System</b>: Air Cooled, Vertical Airflow"
+    ],
+    "image": "/assets/ulb.png"
+  },
+  "HvMvTransformer": {
+    "title": "HV/MV Transformer",
+    "subtitle": "Transformer Testing & Load Management",
+    "paragraph": "A <b>35 kW load bank</b> is used for <b>transformer testing</b> and managing <b>utility power fluctuations</b>. It applies controlled load to validate voltage regulation, thermal performance, and capacity. In dynamic conditions, it absorbs excess or varying power, stabilizing voltage and preventing equipment stress. Compact and portable, it ensures safe, reliable performance testing and power system stability.",
+    "list": [
+      "<b>Load Bank</b>: MR20V-13.8K-CR-SB",
+      "<b>Load Bank Type</b>: AC Resistive",
+      "<b>Load Rating</b>: ",
+      "<b>Rating</b>: Up to 20MW ",
+      "<b>Voltage</b>: 35 kV",
+      "<b>Load Resolution</b>: 1.3MW ",
+      "<b>Control Power</b>: 480 VAC, 350 KVA",
+      "<b>Internal Or External Connection</b>: ",
+      "<b>Install Type</b>: Stationary / Permanent, Trailer Mounted, Outdoor Use",
+      "<b>Duty Cycle</b>: Continuous Duty",
+      "<b>Cooling System</b>: Air Cooled, Vertical Airflow"
+    ],
+    "image": "/assets/ulb.png"
+  },
+  "MvSwitchgear": {
+    "title": "MV Switchgear",
+    "subtitle": "Main Power Distribution",
+    "paragraph": "Intelligent, <b>automated power routing</b> across MV infrastructure. Unified control of <b>multiple distribution networks</b>. Real-time operational insight with <b>historical analytics</b>.",
+    "list": [],
+    "image": ""
+  },
+  "MvSwitchgear2": {
+    "title": "MV Switchgear 2",
+    "subtitle": "Main Power Distribution",
+    "paragraph": "Intelligent, <b>automated power routing</b> across MV infrastructure. Unified control of <b>multiple distribution networks</b>. Real-time operational insight with <b>historical analytics</b>.",
+    "list": [],
+    "image": ""
+  },
+  "DistributionSwitchgear": {
+    "title": "Distribution Switchgear",
+    "subtitle": "Secondary Distribution",
+    "paragraph": "A <b>3 MW DC load bank (R3000, up to 1000 VDC), scalable up to 100 MW</b>, supports BESS testing and operation by applying controlled resistive load to validate performance, discharge behavior, and system response. It enables continuous-duty testing and absorbs excess or fluctuating energy, stabilizing output and protecting battery systems for safe, reliable, and efficient operation.",
+    "list": [
+      "<b>Load bank</b>: R3000 DC self-contained, outdoor stationary load bank",
+      "<b>Load bank type</b>: DC resistive",
+      "<b>Load rating</b>: 3000 kw at 1000 VDC, 3000 kw at 500 VDC",
+      "<b>Install type</b>: stationary / permanent, outdoor use",
+      "<b>Duty cycle</b>: continuous duty",
+      "<b>Cooling system</b>: air cooled, vertical airflow"
+    ],
+    "image": "/assets/BESS-sidebar.png"
+  },
+  "DistributionSwitchgear2": {
+    "title": "Distribution Switchgear",
+    "subtitle": "Secondary Distribution",
+    "paragraph": "A <b>3 MW DC load bank (R3000, up to 1000 VDC), scalable up to 100 MW</b>, supports BESS testing and operation by applying controlled resistive load to validate performance, discharge behavior, and system response. It enables continuous-duty testing and absorbs excess or fluctuating energy, stabilizing output and protecting battery systems for safe, reliable, and efficient operation.",
+    "list": [
+      "<b>Load bank</b>: R3000 DC self-contained, outdoor stationary load bank",
+      "<b>Load bank type</b>: DC resistive",
+      "<b>Load rating</b>: 3000 kw at 1000 VDC, 3000 kw at 500 VDC",
+      "<b>Install type</b>: stationary / permanent, outdoor use",
+      "<b>Duty cycle</b>: continuous duty",
+      "<b>Cooling system</b>: air cooled, vertical airflow"
+    ],
+    "image": "/assets/BESS-sidebar.png"
+  },
+  "DieselGenerator": {
+    "title": "Diesel Generator",
+    "subtitle": "Emergency Backup System",
+    "paragraph": "A <b>diesel backup load bank solution (up to 6 MW)</b> supports <b> generator testing and operation </b> by applying controlled AC resistive load to validate performance, reliability, and system response during commissioning and maintenance. Using <b>stationary RL6250 Series load banks</b> and <b> portable R2000 trailer-mounted units </b>, it enables continuous-duty testing, maintains optimal loading to prevent wet stacking, and simulates real operating conditions. In dynamic scenarios, it absorbs excess or varying load, stabilizing output and protecting generator systems—ensuring safe, reliable, and efficient backup power operation.",
+    "lists": [
+      {
+        "subtitle": "Stationary",
+        "items": [
+          "<b>Load Bank</b>: RL6250 Series, Self Contained, Stationary / Permanent Load Bank",
+          "<b>Load Bank Type</b>: AC Resistive",
+          "<b>Load Rating</b>: Rating: upto 6 MW",
+          "<b>Install Type</b>: Stationary / Permanent, Outdoor Use",
+          "<b>Duty Cycle</b>: Continuous Duty",
+          "<b>Cooling System</b>: Air Cooled, Vertical Airflow"
+        ]
+      },
+      {
+        "subtitle": "Portable / Trailer Mounted",
+        "items": [
+          "<b>Load Bank</b>: R2000 TR Series, Self Contained, Trailer Mounted Load Bank",
+          "<b>Load Bank Type</b>: AC Resistive",
+          "<b>Load Rating</b>: Rating: 2000kW, Voltage: 480 VAC, Phase: 3 phase, Frequency: 60 Hz, Load Step Resolution: 25kW",
+          "<b>Power Factor</b>: 1",
+          "<b>Install Type</b>: Stationary / Permanent, Outdoor Use, Trailer Mounted",
+          "<b>Duty Cycle</b>: Continuous Duty",
+          "<b>Cooling System</b>: Horizontal Airflow"
+        ]
+      }
+    ],
+    "images": [
+      "/assets/rent.png",
+      "/assets/BESS-sidebar.png"
+    ]
+  },
+  "BatteryStorage": {
+    "title": "Battery Energy Storage System",
+    "subtitle": "Energy Storage & Buffering",
+    "paragraph": "A <b>3 MW DC load bank (R3000, up to 1000 VDC), scalable up to 100 MW </b>, supports <b> BESS testing and operation </b> by applying controlled resistive load to validate performance, discharge behavior, and system response. It enables continuous-duty testing and absorbs excess or fluctuating energy, stabilizing output and protecting battery systems for safe, reliable, and efficient operation.",
+    "list": [
+      "<b>Load bank</b>: R3000 DC self-contained, outdoor stationary load bank",
+      "<b>Load bank type</b>: DC resistive",
+      "<b>Load rating</b>: 3000 kw at 1000 VDC, 3000 kw at 500 VDC",
+      "<b>Install type</b>: stationary / permanent, outdoor use",
+      "<b>Duty cycle</b>: continuous duty",
+      "<b>Cooling system</b>: air cooled, vertical airflow"
+    ],
+    "image": "/assets/BESS-sidebar.png"
+  },
+  "ServerCluster": {
+    "title": "Rack and Servers",
+    "subtitle": "High-Density Computing",
+    "paragraph": "The <b>white space (data hall/facility level)</b> represents aggregated multi-megawatt IT loads with dynamic, AI-driven fluctuations. <b> DC and liquid-cooled load banks </b> enable precise replication of these conditions by emulating real rack-level power and thermal behavior. They validate system performance across UPS, switchgear, and cooling infrastructure, absorb rapid load changes, and help maintain voltage and system stability—ensuring reliable operation under real-world, high-density conditions.",
+    "sections": [
+      {
+        "title": "DC Series Load Banks",
+        "subsections": [
+          {
+            "items": [
+              "<b>Load Bank</b>: R900 DC",
+              "<b>Load Bank Type</b>: DC Resistive",
+              "<b>Load Rating</b>: 900 KW at 700 VDC<br/>-various configurations available",
+              "<b>Install Type</b>: Stationary / Permanent, Outdoor Use",
+              "<b>Duty Cycle</b>: Continuous Duty",
+              "<b>Cooling System</b>: Air Cooled, Vertical Airflow"
+            ],
+            "image": "/assets/rs-1.png"
+          },
+          {
+            "items": [
+              "<b>Load Bank</b>: R3000 DC",
+              "<b>Load Bank Type</b>: DC Resistive",
+              "<b>Load Rating</b>: 3000 kW at 1000 VDC, 3000 kW at 500 VDC",
+              "<b>Install Type</b>: Stationary / Permanent, Outdoor Use",
+              "<b>Duty Cycle</b>: Continuous Duty",
+              "<b>Cooling System</b>: Air Cooled, Vertical Airflow"
+            ],
+            "image": "/assets/BESS-sidebar.png"
+          }
+        ]
+      },
+      {
+        "title": "Liquid Cooled Load Banks",
+        "subsections": [
+          {
+            "items": [
+              "<b>Load Bank</b>: R500 LCLB Series",
+              "<b>Load Bank Type</b>: AC Resistive",
+              "<b>Load Rating</b>: Upto 720kW at 480 VAC.",
+              "<b>Install Type</b>: Portable, Indoor Use, Outdoor Use",
+              "<b>Duty Cycle</b>: Continuous Duty",
+              "<b>Cooling System</b>: Liquid Cooled"
+            ],
+            "image": "/assets/rs-2.png"
+          }
+        ]
+      }
+    ]
+  },
+  "ServerCluster2": {
+    "title": "Rack and Servers",
+    "subtitle": "High-Density Computing",
+    "paragraph": "The <b>white space (data hall/facility level)</b> represents aggregated multi-megawatt IT loads with dynamic, AI-driven fluctuations. <b> DC and liquid-cooled load banks </b> enable precise replication of these conditions by emulating real rack-level power and thermal behavior. They validate system performance across UPS, switchgear, and cooling infrastructure, absorb rapid load changes, and help maintain voltage and system stability—ensuring reliable operation under real-world, high-density conditions.",
+    "sections": [
+      {
+        "title": "DC Series Load Banks",
+        "subsections": [
+          {
+            "items": [
+              "<b>Load Bank</b>: R900 DC",
+              "<b>Load Bank Type</b>: DC Resistive",
+              "<b>Load Rating</b>: 900 KW at 700 VDC<br/>-various configurations available",
+              "<b>Install Type</b>: Stationary / Permanent, Outdoor Use",
+              "<b>Duty Cycle</b>: Continuous Duty",
+              "<b>Cooling System</b>: Air Cooled, Vertical Airflow"
+            ],
+            "image": "/assets/rs-1.png"
+          },
+          {
+            "items": [
+              "<b>Load Bank</b>: R3000 DC",
+              "<b>Load Bank Type</b>: DC Resistive",
+              "<b>Load Rating</b>: 3000 kW at 1000 VDC, 3000 kW at 500 VDC",
+              "<b>Install Type</b>: Stationary / Permanent, Outdoor Use",
+              "<b>Duty Cycle</b>: Continuous Duty",
+              "<b>Cooling System</b>: Air Cooled, Vertical Airflow"
+            ],
+            "image": "/assets/BESS-sidebar.png"
+          }
+        ]
+      },
+      {
+        "title": "Liquid Cooled Load Banks",
+        "subsections": [
+          {
+            "items": [
+              "<b>Load Bank</b>: R500 LCLB Series",
+              "<b>Load Bank Type</b>: AC Resistive",
+              "<b>Load Rating</b>: Upto 720kW at 480 VAC.",
+              "<b>Install Type</b>: Portable, Indoor Use, Outdoor Use",
+              "<b>Duty Cycle</b>: Continuous Duty",
+              "<b>Cooling System</b>: Liquid Cooled"
+            ],
+            "image": "/assets/rs-2.png"
+          }
+        ]
+      }
+    ]
+  },
+  "GasGenerator": {
+    "title": "Gas Generator",
+    "subtitle": "Prime Power Generation",
+    "paragraph": "A <b>20 MW, 13.8 kV load bank </b> supports <b> gas turbine testing and operation </b> by applying controlled medium-voltage load to validate performance, stability, and response during commissioning or maintenance. It helps maintain minimum load for efficient turbine operation. In dynamic conditions, it absorbs excess or fluctuating power, stabilizing output and protecting equipment for reliable, continuous performance.",
+    "list": [
+      "<b>Load Bank</b>: MR20V-13.8K-CR-SB",
+      "<b>Load Bank Type</b>: AC Resistive",
+      "<b>Load Rating</b>: ",
+      "<b>Rating</b>: Up to 20mw ",
+      "<b>Voltage</b>: 13.8 kV ",
+      "<b>Load Resolution</b>: 1.3mW ",
+      "<b>Control Power</b>: 480 VAC, 350 KVA",
+      "<b>Internal Or External Connection</b>: ",
+      "<b>Install Type</b>: Stationary / Permanent, Trailer Mounted, Outdoor Use",
+      "<b>Duty Cycle</b>: Continuous Duty",
+      "<b>Cooling System</b>: Air Cooled, Vertical Airflow"
+    ],
+    "image": "/assets/ulb.png"
+  },
+  "Ups": {
+    "title": "UPS Batteries",
+    "subtitle": "Emergency Backup System",
+    "paragraph": "A <b>3 MW DC load bank (R3000, up to 1000 VDC), scalable up to 100 MW</b>, supports BESS testing and operation by applying controlled resistive load to validate performance, discharge behavior, and system response. It enables continuous-duty testing and absorbs excess or fluctuating energy, stabilizing output and protecting battery systems for safe, reliable, and efficient operation.",
+    "list": [
+      "<b>Load bank</b>: R3000 DC self-contained, outdoor stationary load bank",
+      "<b>Load bank type</b>: DC resistive",
+      "<b>Load rating</b>: 3000 kw at 1000 VDC, 3000 kw at 500 VDC",
+      "<b>Install type</b>: stationary / permanent, outdoor use",
+      "<b>Duty cycle</b>: continuous duty",
+      "<b>Cooling system</b>: air cooled, vertical airflow"
+    ],
+    "image": "/assets/BESS-sidebar.png"
+  }
+}

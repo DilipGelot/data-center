@@ -3,7 +3,7 @@ import InteractiveModel from "./InteractiveModel";
 
 export default function DistributionSwitchgear2() {
   return (
-    <div className="absolute top-[79%] left-[49%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto z-2">
+    <div className="absolute top-[80%] left-[48%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto z-2">
       <InteractiveModel id="DistributionSwitchgear2">
         <Image
           src="/assets/mv-switchgear.webp"

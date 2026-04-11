@@ -6,7 +6,7 @@ export default function ServerCluster2() {
     <div className="absolute top-[59%] left-[56%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
       <InteractiveModel id="ServerCluster2">
         <Image
-          src="/assets/server.webp"
+          src="/assets/servers.webp"
           alt="Rack and Servers"
           width={250}
           height={250}

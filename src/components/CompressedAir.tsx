@@ -4,7 +4,7 @@ import InteractiveModel from "./InteractiveModel";
 
 export default function CompressedAir() {
   return (
-    <div className="absolute top-[61%] left-[90%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto z-2">
+    <div className="absolute top-[80%] left-[78%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto z-2">
       <InteractiveModel id="CompressedAir">
         <ModelLabel label="Compressed Air" />
         <Image

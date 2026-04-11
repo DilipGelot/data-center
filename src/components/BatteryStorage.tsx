@@ -4,7 +4,7 @@ import InteractiveModel from "./InteractiveModel";
 
 export default function BatteryStorage() {
   return (
-    <div className="absolute top-[45%] left-[25%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
+    <div className="absolute top-[40%] left-[20%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
       <InteractiveModel id="BatteryStorage">
         <ModelLabel label="BESS" />
         <Image

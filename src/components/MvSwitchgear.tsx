@@ -4,11 +4,11 @@ import InteractiveModel from "./InteractiveModel";
 
 export default function MvSwitchgear() {
   return (
-    <div className="absolute top-[50%] left-[13%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
+    <div className="absolute top-[38%] left-[47%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
       <InteractiveModel id="MvSwitchgear">
         <ModelLabel label="MV Switch Gear" />
         <Image
-          src="/assets/mv-switchgear.webp"
+          src="/assets/mv-switchgear1.webp"
           alt="MV Switchgear"
           width={250}
           height={250}

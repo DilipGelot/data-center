@@ -4,11 +4,11 @@ import InteractiveModel from "./InteractiveModel";
 
 export default function MobilePower() {
   return (
-    <div className="absolute top-[63%] left-[-10px] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
+    <div className="absolute top-[47%] left-[12%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
       <InteractiveModel id="MobilePower">
-        <ModelLabel label="20 MV Load Bank" />
+        <ModelLabel label="20 MW Load Bank" />
         <Image
-          src="/assets/mobile-power1.webp"
+          src="/assets/mobile-power.webp"
           alt="Mobile Power"
           width={250}
           height={250}

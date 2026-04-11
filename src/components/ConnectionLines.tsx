@@ -27,7 +27,7 @@ export default function ConnectionLines() {
           Direct isometric straight line from tower base to transformer base
         */}
         <path
-          d="M 264 180 L 144 260"
+          d="M 264 180 L 132 252"
           stroke="#c084fc"
           strokeWidth="6"
           strokeLinecap="round"
@@ -36,7 +36,7 @@ export default function ConnectionLines() {
           className="opacity-30"
         />
         <path
-          d="M 264 180 L 144 260"
+          d="M 264 180 L 132 252"
           stroke="#9333ea"
           strokeWidth="4"
           strokeLinecap="round"
@@ -47,11 +47,11 @@ export default function ConnectionLines() {
         />
 
         {/* 
-          Yellow Line: HV-MV Transformer -> MV Switch Gear
-          Isometric 90° turn: down-left along iso axis, then down-right along iso axis
+          Yellow Line: HV-MV Transformer -> BESS
+          Straight isometric line down-right
         */}
         <path
-          d="M 138 270 L 30 332 L 150 402"
+          d="M 132 252 L 252 312"
           stroke="#fde047"
           strokeWidth="6"
           strokeLinecap="round"
@@ -60,7 +60,7 @@ export default function ConnectionLines() {
           className="opacity-30"
         />
         <path
-          d="M 138 270 L 30 332 L 150 402"
+          d="M 132 252 L 252 312"
           stroke="#eab308"
           strokeWidth="4"
           strokeLinecap="round"
@@ -70,155 +70,56 @@ export default function ConnectionLines() {
           className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]"
         />
 
-        {/* 
-          Yellow Lines: Gas Turbine 1 → 4 Gas Generators
-          Centered T-branch pattern: Straight central trunk from Gas Turbine
-          connecting to the exact center of an isometric spine along the generators.
+        {/*
+          Yellow Lines: BESS → MV Switchgear 2
+          Isometric L-shape routing out from BESS down-right, then turning up-right to the base of Switchgear 2.
         */}
-        {/* Central Trunk: Center of Spine → Turbine */}
-        <path
-          d="M 554 207 L 408 280"
-          stroke="#fde047"
-          strokeWidth="6"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          fill="none"
-          className="opacity-30"
-        />
-        <path
-          d="M 554 207 L 408 280"
-          stroke="#eab308"
-          strokeWidth="4"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          fill="none"
-          strokeDasharray="12 12"
-          className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]"
-        />
-
-        {/* Isometric Horizontal Spine converging from generators to center */}
-        {[
-          "M 509 185 L 554 207",
-          "M 599 230 L 554 207",
-        ].map((d, i) => (
-          <g key={`gen-spine-${i}`}>
-            <path d={d} stroke="#fde047" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
-            <path d={d} stroke="#eab308" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
-          </g>
-        ))}
-
-        {/* 4 Evenly spaced Branch stubs from each generator to spine */}
-        {[
-          "M 523 178 L 509 185",
-          "M 553 193 L 539 200",
-          "M 583 208 L 569 215",
-          "M 613 223 L 599 230",
-        ].map((d, i) => (
-          <g key={`gen-branch-${i}`}>
-            <path d={d} stroke="#fde047" strokeWidth="6" strokeLinecap="round" fill="none" className="opacity-30" />
-            <path d={d} stroke="#eab308" strokeWidth="4" strokeLinecap="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
-          </g>
-        ))}
+        <path d="M 300 360 L 386 403 L 430 381" stroke="#fde047" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
+        <path d="M 300 360 L 386 403 L 430 381" stroke="#eab308" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
 
         {/*
-          Yellow Lines: Gas Turbine 2 → 5 Diesel Generators
-          Centered T-branch pattern: Straight central trunk from Gas Turbine 2
-          connecting to the exact center of an isometric spine along the diesel generators.
+          Yellow Lines: Gas Turbine 2 → MV Switchgear
+          Straight isometric line down-right connecting to the switchgear base.
         */}
-        {/* Central Trunk: Center of Spine → Turbine 2 */}
-        <path
-          d="M 756 194 L 518 313"
-          stroke="#fde047"
-          strokeWidth="6"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          fill="none"
-          className="opacity-30"
-        />
-        <path
-          d="M 756 194 L 518 313"
-          stroke="#eab308"
-          strokeWidth="4"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          fill="none"
-          strokeDasharray="12 12"
-          className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]"
-        />
-
-        {/* Isometric Horizontal Spine converging to the center */}
-        {[
-          "M 696 164 L 756 194",
-          "M 816 224 L 756 194",
-        ].map((d, i) => (
-          <g key={`diesel-spine-${i}`}>
-            <path d={d} stroke="#fde047" strokeWidth="6" strokeLinecap="round" fill="none" className="opacity-30" />
-            <path d={d} stroke="#eab308" strokeWidth="4" strokeLinecap="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
-          </g>
-        ))}
-
-        {/* 5 Evenly spaced Branch stubs from each diesel generator to spine */}
-        {[
-          "M 728 148 L 696 164",
-          "M 758 163 L 726 179",
-          "M 788 178 L 756 194",
-          "M 818 193 L 786 209",
-          "M 848 208 L 816 224",
-        ].map((d, i) => (
-          <g key={`diesel-branch-${i}`}>
-            <path d={d} stroke="#fde047" strokeWidth="6" strokeLinecap="round" fill="none" className="opacity-30" />
-            <path d={d} stroke="#eab308" strokeWidth="4" strokeLinecap="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
-          </g>
-        ))}
+        <path d="M 450 270 L 530 310" stroke="#fde047" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
+        <path d="M 450 270 L 530 310" stroke="#eab308" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
 
         {/*
-          Yellow Lines: Gas Turbine 1 → BESS
-          Isometric line from Bottom-Left face of GT1 down-left to BESS.
+          Yellow Lines: Gas Generator → MV Switchgear
+          Isometric L-shape routing out from the front-right of the generator array, then turning back left to the switchgear base.
         */}
-        <path d="M 408 280 L 300 334" stroke="#fde047" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
-        <path d="M 408 280 L 300 334" stroke="#eab308" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
-
-        {/*
-          Yellow Lines: Gas Turbine 2 → MV Switchgear 2
-          Isometric line from Bottom-Left face of GT2 down-left to MV Switchgear 2.
-        */}
-        <path d="M 518 313 L 240 452" stroke="#fde047" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
-        <path d="M 518 313 L 240 452" stroke="#eab308" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
-
-        {/*
-          Yellow Lines: BESS → MV Switchgear 1
-          Isometric slope (dy/dx = -0.5) connecting BESS downwards to Switchgear 1
-        */}
-        <path d="M 256 350 L 156 400" stroke="#fde047" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
-        <path d="M 256 350 L 156 400" stroke="#eab308" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
+        <path d="M 570 190 L 705 258 L 601 310" stroke="#fde047" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
+        <path d="M 570 190 L 705 258 L 601 310" stroke="#eab308" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
 
         {/*
           Yellow Lines: MV Switchgear 1 → MV Switchgear 2
-          Perfect isometric slope (dy/dx = 0.5) connecting the two switchgears.
+          Perfect isometric slope (dy/dx = -0.5) connecting the two switchgears.
         */}
-        <path d="M 156 400 L 240 442" stroke="#fde047" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
-        <path d="M 156 400 L 240 442" stroke="#eab308" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
+        <path d="M 584 310 L 472 366" stroke="#fde047" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
+        <path d="M 584 310 L 472 366" stroke="#eab308" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
 
-        {/*
-          Yellow Lines: Mobile Power → MV Switchgear 1
-          Isometric slope (dy/dx = -0.5) from Mobile load bank to distribution gear
-        */}
-        <path d="M -10 483 L 156 400" stroke="#fde047" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
-        <path d="M -10 483 L 156 400" stroke="#eab308" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
 
-        {/*
-          Yellow Lines: Rental Power → MV Switchgear 2
-          Isometric slope (dy/dx = -0.5) from Rental load bank to Switchgear 2
-        */}
-        <path d="M 60 530 L 240 440" stroke="#fde047" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
-        <path d="M 60 530 L 240 440" stroke="#eab308" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
 
         {/*
           Yellow Lines: MV Switchgear 2 → CCHP
-          Isometric zigzag tracing neatly beneath the rental load line
+          Isometric L-shape tracing from Switchgear 2 leftwards, then branching right into CCHP
         */}
-        <path d="M 270 455 L 150 515 L 196 538" stroke="#fde047" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
-        <path d="M 270 455 L 150 515 L 196 538" stroke="#eab308" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
+        <path d="M 430 380 L 143 524 L 179 542" stroke="#fde047" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
+        <path d="M 430 380 L 143 524 L 179 542" stroke="#eab308" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
+
+        {/*
+          Yellow Lines: Mobile Power → CCHP Main Bus
+          Straight isometric line connecting the truck load bank to the Switchgear-CCHP line
+        */}
+        <path d="M 176 411 L 272 459" stroke="#fde047" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
+        <path d="M 176 411 L 272 459" stroke="#eab308" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
+
+        {/*
+          Yellow Lines: Rental Power → CCHP Main Bus
+          Straight isometric line connecting the trailer load bank to the Switchgear-CCHP line
+        */}
+        <path d="M 106 454 L 194 498" stroke="#fde047" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
+        <path d="M 106 454 L 194 498" stroke="#eab308" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
 
         {/*
           Yellow Lines: CCHP → LV MV Transformer
@@ -249,30 +150,26 @@ export default function ConnectionLines() {
         <path d="M 420 574 L 588 658" stroke="#ef4444" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(239,68,68,0.8)]" />
 
         {/*
-          Green Lines: Distribution Switchgear 1 → Server Cluster 2
+          Red Lines: Distribution Switchgear 2 → UPS
+          Straight isometric line down-right from switchgear to UPS container
         */}
-        <path d="M 420 560 L 672 434" stroke="#4ade80" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
-        <path d="M 420 560 L 672 434" stroke="#22c55e" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(34,197,94,0.8)]" />
-
-        {/*
-          Green Lines: Distribution Switchgear 2 → Server Cluster 1
-          Starts cleanly from the top-right corner of the switchgear housing and lands perfectly on the bottom structural edge of the server block
-        */}
-        <path d="M 638 615 L 876 496" stroke="#4ade80" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
-        <path d="M 638 615 L 876 496" stroke="#22c55e" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(34,197,94,0.8)]" />
+        <path d="M 610 670 L 756 743" stroke="#fca5a5" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
+        <path d="M 610 670 L 756 743" stroke="#ef4444" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(239,68,68,0.8)]" />
 
         {/*
           Blue Lines: Distribution Switchgear 2 → Cooling Units
-          Isometric right-angle turn: Bottom-Right to clear layout, then Top-Right parallel to building wall, with flat isometric 90-degree floor branches.
+          L-shape trunk: down-right from DS2, then 90° turn going up-right
+          with branches to Temperature Control, Compressed Air, and Dry Cooler
         */}
-        <path d="M 588 632 L 840 758 L 1220 568" stroke="#60a5fa" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
-        <path d="M 588 632 L 840 758 L 1220 568" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(59,130,246,0.8)]" />
+        {/* Main L-shape trunk */}
+        <path d="M 610 680 L 660 710 L 1020 530" stroke="#60a5fa" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
+        <path d="M 610 680 L 660 710 L 1020 530" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(59,130,246,0.8)]" />
 
-        {/* Cooling Unit Details (Isometric 90-degree Floor Branches) */}
+        {/* Branch stubs to each cooling component */}
         {[
-          "M 870 743 L 804 710",     // Dry Cooler branch
-          "M 1028 664 L 900 600",    // Temp Control branch
-          "M 1188 584 L 1080 530",   // Compressed Air branch
+          "M 780 650 L 840 680",      // Temperature Control branch
+          "M 900 590 L 940 640",      // Compressed Air branch
+          "M 1020 530 L 1050 560",    // Dry Cooler branch
         ].map((d, i) => (
           <g key={`blue-branch-${i}`}>
             <path d={d} stroke="#60a5fa" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
@@ -280,6 +177,34 @@ export default function ConnectionLines() {
           </g>
         ))}
 
+        {/*
+          Green Lines: Distribution Switchgear 1 & 2 → Server Racks
+          `[` bracket shape connecting DS1 and DS2 on the right,
+          then a trunk going up-right to the server cluster area.
+        */}
+
+        {/* DS1 stub going right to corner */}
+        <path d="M 440 560 L 520 520" stroke="#4ade80" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
+        <path d="M 440 560 L 520 520" stroke="#22c55e" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(34,197,94,0.8)]" />
+
+        {/* Cross-connect bracket from DS1 trunk corner down-right to DS2 trunk */}
+        <path d="M 480 540 L 650 625" stroke="#4ade80" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
+        <path d="M 480 540 L 650 625" stroke="#22c55e" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(34,197,94,0.8)]" />
+
+        {/* Trunk: From corner going up-right to server racks */}
+        <path d="M 520 520 L 900 330" stroke="#4ade80" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
+        <path d="M 520 520 L 900 330" stroke="#22c55e" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(34,197,94,0.8)]" />
+
+        {/*
+          Green Lines: Distribution Switchgear 2 → Data Center Racks (right side)
+          Straight line up-right from DS2 alongside the server racks
+        */}
+        <path d="M 600 650 L 950 475" stroke="#4ade80" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
+        <path d="M 600 650 L 950 475" stroke="#22c55e" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(34,197,94,0.8)]" />
+
+        {/* End bracket hook entering the rack from the right trunk */}
+        <path d="M 950 475 L 910 455" stroke="#4ade80" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
+        <path d="M 950 475 L 910 455" stroke="#22c55e" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(34,197,94,0.8)]" />
 
       </g>
     </svg>

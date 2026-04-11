@@ -8,7 +8,7 @@ export default function ServerCluster() {
       <InteractiveModel id="ServerCluster">
         <ModelLabel label="Rack and Servers" />
         <Image
-          src="/assets/server.webp"
+          src="/assets/servers.webp"
           alt="Rack and Servers"
           width={250}
           height={250}

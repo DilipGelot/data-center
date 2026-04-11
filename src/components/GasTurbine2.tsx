@@ -8,7 +8,7 @@ export default function GasTurbine2() {
        Change top-[XX%] and left-[XX%] to move this turbine.
        Current: right of the first Gas Turbine.
        ───────────────────────────────────────────────────────── */
-    <div className="absolute top-[40%] left-[41%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
+    <div className="absolute top-[32%] left-[35%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
       <InteractiveModel id="GasTurbine2">
         <Image
           src="/assets/Gas-turbine.webp"

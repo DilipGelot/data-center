@@ -20,21 +20,9 @@ export default function IsometricZone() {
           stroke="none"
         />
 
-        {/* Back Left Wall */}
-        <polygon
-          points="60,380 560,130 560,80 60,330"
-          fill="rgba(150, 162, 175, 0.55)"
-          stroke="rgba(120, 130, 145, 0.6)"
-          strokeWidth="1"
-        />
-
-        {/* Back Right Wall */}
-        <polygon
-          points="560,130 860,280 860,230 560,80"
-          fill="rgba(150, 162, 175, 0.55)"
-          stroke="rgba(120, 130, 145, 0.6)"
-          strokeWidth="1"
-        />
+        {/* Back Left Wall — removed */}
+        
+        {/* Back Right Wall — removed */}
 
         {/* Front Left Wall — removed (bottom side) */}
 
@@ -46,10 +34,9 @@ export default function IsometricZone() {
           strokeWidth="2"
         />
 
-        {/* Top edge boundary — only back + right + middle edges, skip front-left */}
-        <polyline
-          points="60,330 560,80 860,230 360,480"
-          fill="none"
+        {/* Top edge boundary — only middle edge kept */}
+        <line
+          x1="860" y1="230" x2="360" y2="480"
           stroke="rgba(80, 90, 105, 0.9)"
           strokeWidth="2"
         />
