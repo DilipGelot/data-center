@@ -216,39 +216,20 @@
     ]
   },
   "ServerCluster2": {
-    "title": "Rack and Servers",
-    "subtitle": "High-Density Computing",
-    "paragraph": "The <b>white space (data hall/facility level)</b> represents aggregated multi-megawatt IT loads with dynamic, AI-driven fluctuations. <b> DC and liquid-cooled load banks </b> enable precise replication of these conditions by emulating real rack-level power and thermal behavior. They validate system performance across UPS, switchgear, and cooling infrastructure, absorb rapid load changes, and help maintain voltage and system stability—ensuring reliable operation under real-world, high-density conditions.",
+    "title": "Liquid Cooled Rack and Servers",
+    "subtitle": "",
+    "paragraph": "Universal Load Banks (ULB) offers advanced <b>liquid-cooled load bank solutions</b> designed for high-density, continuous-duty applications in modern data centers and mission-critical environments. Our current portfolio includes <b> 500 kW and 720 kW units </b>, with a <b>1 MW platform coming soon</b>, enabling scalable deployment from single-unit testing to multi-MW system validation. Built for performance, safety, and reliability, ULB liquid-cooled load banks feature <b>ASME-stamped pressure vessels</b> and are <b>UL listed</b>, ensuring compliance with the highest industry standards while delivering precise thermal and electrical load simulation.",
+    "list": [
+      "<b>Load bank</b>: R3000 DC self-contained, outdoor stationary load bank",
+      "<b>Load bank type</b>: DC resistive",
+      "<b>Load rating</b>: 3000 kw at 1000 VDC, 3000 kw at 500 VDC",
+      "<b>Install type</b>: stationary / permanent, outdoor use",
+      "<b>Duty cycle</b>: continuous duty",
+      "<b>Cooling system</b>: air cooled, vertical airflow"
+    ],
     "sections": [
       {
-        "title": "DC Series Load Banks",
-        "subsections": [
-          {
-            "items": [
-              "<b>Load Bank</b>: R900 DC",
-              "<b>Load Bank Type</b>: DC Resistive",
-              "<b>Load Rating</b>: 900 KW at 700 VDC<br/>-various configurations available",
-              "<b>Install Type</b>: Stationary / Permanent, Outdoor Use",
-              "<b>Duty Cycle</b>: Continuous Duty",
-              "<b>Cooling System</b>: Air Cooled, Vertical Airflow"
-            ],
-            "image": "/assets/rs-1.png"
-          },
-          {
-            "items": [
-              "<b>Load Bank</b>: R3000 DC",
-              "<b>Load Bank Type</b>: DC Resistive",
-              "<b>Load Rating</b>: 3000 kW at 1000 VDC, 3000 kW at 500 VDC",
-              "<b>Install Type</b>: Stationary / Permanent, Outdoor Use",
-              "<b>Duty Cycle</b>: Continuous Duty",
-              "<b>Cooling System</b>: Air Cooled, Vertical Airflow"
-            ],
-            "image": "/assets/BESS-sidebar.png"
-          }
-        ]
-      },
-      {
-        "title": "Liquid Cooled Load Banks",
+        "title": "",
         "subsections": [
           {
             "items": [
