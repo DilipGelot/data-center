@@ -24,6 +24,7 @@ import ServerCluster from "./ServerCluster";
 import ServerCluster2 from "./ServerCluster2";
 import Onsite from "./Onsite";
 import Ups from "./Ups";
+import LiquidCooledLoadBanks from "./LiquidCooledLoadBanks";
 import IsometricZone from "./IsometricZone";
 import ConnectionLines from "./ConnectionLines";
 import { SelectionProvider, useSelection } from "./SelectionContext";
@@ -117,6 +118,7 @@ function SceneLayout() {
         <ServerCluster2 />
         <Onsite />
         <Ups />
+        <LiquidCooledLoadBanks />
       </div>
 
       {/* Top Legend */}

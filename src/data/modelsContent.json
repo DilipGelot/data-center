@@ -278,5 +278,18 @@
       "<b>Cooling system</b>: air cooled, vertical airflow"
     ],
     "image": "/assets/BESS-sidebar.png"
+  },
+  "LiquidCooledLoadBanks": {
+    "title": "Liquid Cooled Load Banks",
+    "subtitle": "High-Density Cooling",
+    "paragraph": "Universal Load Banks (ULB) offers advanced <b>liquid-cooled load bank solutions</b> designed for high-density, continuous-duty applications in modern data centers and mission-critical environments. Built for performance, safety, and reliability, ULB liquid-cooled load banks feature ASME-stamped pressure vessels and are UL listed.",
+    "list": [
+      "<b>Load Bank</b>: R500 LCLB Series",
+      "<b>Load Bank Type</b>: AC Resistive",
+      "<b>Load Rating</b>: Upto 720kW at 480 VAC.",
+      "<b>Install Type</b>: Portable, Indoor Use, Outdoor Use",
+      "<b>Cooling System</b>: Liquid Cooled"
+    ],
+    "image": "/assets/liquid-cooled-load-bank.webp"
   }
 }

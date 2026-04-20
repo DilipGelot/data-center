@@ -152,6 +152,13 @@ export default function ConnectionLines() {
         ))}
 
         {/*
+          Yellow Line: Stationary Load Bank → Liquid Cooled Load Bank
+          Straight line connecting the load banks
+        */}
+        <path d="M 444 752 L 552 806" stroke="#fde047" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
+        <path d="M 444 752 L 552 806" stroke="#eab308" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(234,179,8,0.8)]" />
+
+        {/*
           Red Lines: LV MV Transformer → Distribution Switchgear
           Straight isometric line going top-right from the transformer
         */}
