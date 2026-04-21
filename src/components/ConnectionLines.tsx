@@ -140,10 +140,10 @@ export default function ConnectionLines() {
           Dashed yellow lines branching off the yellow trunk going bottom-left towards generators.
         */}
         {[
-          "M 290 675 L 220 710",      
-          "M 330 695 L 260 730",      
-          "M 370 715 L 300 750",    
-          "M 410 735 L 340 770",    
+          "M 290 675 L 220 710",
+          "M 330 695 L 260 730",
+          "M 370 715 L 300 750",
+          "M 410 735 L 340 770",
         ].map((d, i) => (
           <g key={`diesel-branch-${i}`}>
             <path d={d} stroke="#fde047" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
@@ -215,8 +215,8 @@ export default function ConnectionLines() {
         <path d="M 480 540 L 650 625" stroke="#22c55e" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(34,197,94,0.8)]" />
 
         {/* Trunk: From corner going up-right to server racks */}
-        <path d="M 520 520 L 900 330" stroke="#4ade80" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
-        <path d="M 520 520 L 900 330" stroke="#22c55e" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(34,197,94,0.8)]" />
+        <path d="M 520 520 L 700 430" stroke="#4ade80" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" className="opacity-30" />
+        <path d="M 520 520 L 700 430" stroke="#22c55e" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" strokeDasharray="12 12" className="animate-flow drop-shadow-[0_0_8px_rgba(34,197,94,0.8)]" />
 
         {/*
           Green Lines: Distribution Switchgear 2 → Data Center Racks (right side)

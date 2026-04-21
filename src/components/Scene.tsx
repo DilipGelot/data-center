@@ -119,6 +119,21 @@ function SceneLayout() {
         <Onsite />
         <Ups />
         <LiquidCooledLoadBanks />
+
+        {/* Partition Wall separating ServerCluster and ServerCluster2, rendered ON TOP of models */}
+        <svg className="absolute inset-0 w-full h-full pointer-events-none z-20">
+          <polygon
+            points="690,365 950,535 950,505 690,335"
+            fill="rgba(150, 162, 175, 0.55)"
+            stroke="rgba(120, 130, 145, 0.6)"
+            strokeWidth="1"
+          />
+          <line
+            x1="690" y1="335" x2="950" y2="505"
+            stroke="rgba(80, 90, 105, 0.9)"
+            strokeWidth="2"
+          />
+        </svg>
       </div>
 
       {/* Top Legend */}

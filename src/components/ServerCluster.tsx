@@ -4,7 +4,7 @@ import InteractiveModel from "./InteractiveModel";
 
 export default function ServerCluster() {
   return (
-    <div className="absolute top-[47%] left-[73%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
+    <div className="absolute top-[45%] left-[75%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
       <InteractiveModel id="ServerCluster">
         <ModelLabel label="Air Cooled Rack and Servers" />
         <Image
