@@ -6,7 +6,7 @@ export default function ServerCluster() {
   return (
     <div className="absolute top-[47%] left-[73%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
       <InteractiveModel id="ServerCluster">
-        <ModelLabel label="Dry Cooled Rack and Servers" />
+        <ModelLabel label="Air Cooled Rack and Servers" />
         <Image
           src="/assets/servers.webp"
           alt="Rack and Servers"

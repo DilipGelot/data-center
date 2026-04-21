@@ -12,7 +12,7 @@ export default function RentalPower() {
           alt="Rental Power"
           width={250}
           height={250}
-          className="relative w-[150px] h-auto object-contain drop-shadow-2xl"
+          className="relative w-[110px] h-auto object-contain drop-shadow-2xl"
           priority
         />
       </InteractiveModel>

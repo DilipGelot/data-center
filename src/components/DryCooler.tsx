@@ -6,7 +6,7 @@ export default function DryCooler() {
   return (
     <div className="absolute top-[70%] left-[88%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto">
       <InteractiveModel id="DryCooler">
-        <ModelLabel label="Dry Cooler" />
+        <ModelLabel label="Air cooler" />
         <Image
           src="/assets/dry-coolers.webp"
           alt="Dry Cooler"
